@@ -10,8 +10,8 @@ public class JenkinsDemoApplication {
 
 	public static final Logger logger = LoggerFactory.getLogger(JenkinsDemoApplication.class);
 	public static void main(String[] args) {
-		SpringApplication.run(JenkinsDemoApplication.class, args);
 		logger.info("Application is running");
+		SpringApplication.run(JenkinsDemoApplication.class, args);
 		logger.info("Second logger");
 	}
 
