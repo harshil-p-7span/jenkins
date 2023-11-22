@@ -11,9 +11,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JenkinsDemoApplication {
 
 	public static void main(String[] args) {
-		log.debug("Application is running");
+		log.info("Application is running");
 		SpringApplication.run(JenkinsDemoApplication.class, args);
-		log.debug("Second logger");
+		log.info("Second logger");
 	}
 
 }
