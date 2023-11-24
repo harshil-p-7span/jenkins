@@ -13,7 +13,7 @@ public class JenkinsDemoApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        System.out.print("Application running" + System.currentTimeMillis());
+        System.out.print("Application running on jenkins" + System.currentTimeMillis());
     }
 
 }
