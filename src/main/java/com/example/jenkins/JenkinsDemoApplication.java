@@ -1,8 +1,5 @@
 package com.example.jenkins;
 
-import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,13 +7,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class JenkinsDemoApplication implements CommandLineRunner {
 
-	public static void main(String[] args) {
-		SpringApplication.run(JenkinsDemoApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(JenkinsDemoApplication.class, args);
+    }
 
-	@Override
-	public void run(String... args) {
-		System.out.print("Application running" +  System.currentTimeMillis());
-	}
+    @Override
+    public void run(String... args) {
+        System.out.print("Application running" + System.currentTimeMillis());
+    }
 
 }
